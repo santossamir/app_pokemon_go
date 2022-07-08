@@ -1,4 +1,4 @@
-app_pokemon_go
+#app_pokemon_go
 
 Nesse projeto foi feito uma landing page com objetivo de buscar, listar e detalhar pokémons
 a partir da API Pokeapi.co. As tecnologias utilizadas foram: HTML, CSS, Javascript, Git e
