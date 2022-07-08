@@ -1,0 +1,39 @@
+.nav-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 120px;
+    background: #FFFFFF;
+    box-shadow: 0px 2px 25px rgba(169, 169, 169, 0.2);
+}
+
+.logo{
+    width: 159px;
+    height: 60px;
+    margin-left: 10%;
+    margin-top: 15px;
+}
+
+.menu{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-right: 10%;
+}
+
+#pokemons{
+    border-bottom: 3px solid;
+    font-weight: 700;
+    color: #212121;
+}
+
+.menu div:hover{
+    border-bottom: 3px solid;
+    font-weight: 700;
+    color: #212121;
+}
+
+.menu a{
+    text-decoration: none;
+}

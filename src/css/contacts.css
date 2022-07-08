@@ -1,0 +1,15 @@
+.inform{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.inform h2, h4, small{
+    color: #282828;
+}
+
+h4 small{
+    font-style: italic;
+}

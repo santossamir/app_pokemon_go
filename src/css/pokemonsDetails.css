@@ -1,0 +1,271 @@
+.modalContainer{
+    position: fixed;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.6);
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    z-index: 3;
+    backdrop-filter: blur(12px);
+}
+
+.boxCardModal{
+    display: flex;
+    margin-top: 17px;
+    box-shadow: 4px 4px 8px rgba(1, 28, 64, 0.2);
+    border-radius: 8px;
+    background: #FFFFFF;
+}
+
+.posterCard{
+    background: #FB6C6C;
+    border-radius: 8px;
+    box-shadow: 4px 4px 8px rgba(1, 28, 64, 0.2);
+    z-index: 2000;
+}
+
+.portesCardImage{
+    width: 365px;
+    height: 371px;
+    border-radius: 8px;
+}
+
+.portesCardImage img{
+    width: 321px;
+    height: 315px;
+    margin-left: 25px;
+    margin-top: 16px;
+}
+
+.posterCardTypes{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 12px;
+    position: relative;
+    top: -15px;
+}
+
+.posterType, .posterTypeTwo{
+    opacity: 0.4;
+    border-radius: 15px;  
+    background-color: #FFFFFF;
+    width: 70px;
+    height: 30px;
+    margin-right: 5px;
+    display: flex;
+    justify-content: center;
+}
+
+.posterCardTypes small{
+    font-weight: 700;
+    font-size: 12px;  
+}
+
+.detailsCard{
+    width: 444px;
+    height: 371px;
+    background: #FFFFFF;
+    border-radius: 0px 8px 8px 0px;
+}
+
+.nameId{
+    display:flex;
+    justify-content: space-between;
+    margin-left: 46px;
+}
+
+.name{
+    margin-top: 26px;
+}
+
+.name small{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 42px;
+    color: #444444;
+    text-shadow: 4px 4px 4px rgba(33, 33, 33, 0.1);
+}
+
+.id{
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 30px;
+    text-align: center;
+    color:rgba(33, 33, 33, 0.8);
+    opacity: 0.5;
+    margin-right: 23px;
+    margin-top: 30px;
+}
+
+.description{
+    Width: 335px;
+    Height: 71px;
+    margin-top: 10px;
+}
+
+.description p{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #303943;
+    margin-left: 48px;
+}
+
+.screening{
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 48px;
+    margin-top: 20px;
+}
+
+.screening small{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    color: #212121;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.width, .height{
+    border-right: 1px solid #E0E0E0;
+}
+
+.height, .power{
+    margin-left: 20px;
+}
+
+.width img, .height img{
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.width small, .height small, .power small{
+  margin-right: 20px;
+}
+
+.width p, .height p, .power p{
+    font-size: 10px;
+    line-height: 12px;
+    color: #767676;
+    flex: none;
+    order: 1;
+    align-self: stretch;
+    flex-grow: 0;
+    display:flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.tableCharacteristics{
+    margin-top: 22px;
+    margin-left: 48px;
+}
+
+.tableCharacteristics table th{
+    font-family: 'SF Pro Display';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 28px;
+    display: flex;
+    align-items: center;
+    color: #444444;
+    margin-right: 20px;
+}
+
+.tableCharacteristics table td{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    align-items: center;
+    text-align: center;
+    color: #303943;
+}
+
+/*Estilo conforme o type do pokemon*/
+
+.rock {
+    background-color: 	#BC8F8F;
+}
+  
+.ghost {
+    background-color: #696969;
+}
+
+.electric {
+    background-color: #FFCE4B;;
+}
+
+.bug {
+    background-color: #b4e652;
+}
+
+.poison {
+    background-color: #e0a7f6;
+}
+
+.normal {
+    background-color: #8a81daef;
+}
+
+.fairy {
+    background-color: rgba(255, 192, 203, 0.863);
+}
+
+.fire {
+    background: #FB6C6C;
+}
+
+.grass {
+    background-color: #46D7AB;
+}
+
+.water {
+    background-color:#7fcad4;
+}
+
+.ground{
+    background-color: #d87e55;
+}
+
+.psychic{
+    background-color: #dbb3db;
+}
+
+.fighting{
+    background-color: #FF8C00;
+}
+
+.ice{
+    background-color:#ADD8E6;
+}
+
+.dragon{
+    background-color: #4682B4;
+}
+
+.steel{
+    background-color: 	#8FBC8F;
+}
+
+.dark{
+    background-color: #2F4F4F;
+}
+/*Final - Estilo conforme o type do pokemon*/
